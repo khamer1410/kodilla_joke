@@ -1,0 +1,23 @@
+.container {
+	padding: 40px;
+	text-align: center;
+}
+
+h1 {
+	color: grey;
+}
+
+button {
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color: navy;
+	cursor: pointer;
+	color: white;
+}
+
+button:hover {
+	color: navy;
+	background-color: white;
+	transform: scale(1.2);
+	transition: 1s;
+}
